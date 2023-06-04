@@ -17,7 +17,16 @@ module.exports = {
     .addStringOption(option => option.setName(`image`).setDescription(`The image of the embed`).setRequired(false))
     .addStringOption(option => option.setName(`footer`).setDescription(`The footer text of the embed`).setRequired(false))
     .addStringOption(option => option.setName(`footericon`).setDescription(`The footer icon of the embed`).setRequired(false)),
-    async execute (interaction) {
+    async execute (interaction, client) {
+
+        const bronzeX = client.emojis.cache.find(emoji => emoji.name === "bronze_x")
+        const bronzeCheck = client.emojis.cache.find(emoji => emoji.name === "bronze_check")
+        
+        const permEmbed = new EmbedBuilder()
+        .setColor(`Blue`)
+        .setDescription(`${bronzeX} You don't have permission to use this command`)
+
+        if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) return await interaction.reply({ embeds: [permEmbed], ephemeral: true })
 
         const channel = interaction.options.getChannel(`channel`)
         const color = interaction.options.getString(`color`)

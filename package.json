@@ -1,8 +1,21 @@
 {
   "name": "astral",
   "version": "1.0.0",
-  "description": "",
+  "description": "![88x31](https://github.com/KrazyKleb/astral/assets/124646709/9cb45462-6a03-4ad8-940f-16d6718d3a59)",
   "main": "src/index.js",
+  "author": "KrazyKleb",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrazyKleb/Astral.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "bugs": {
+    "url": "https://github.com/KrazyKleb/Astral/issues"
+  },
+  "homepage": "https://github.com/KrazyKleb/Astral#readme",
   "dependencies": {
     "abbrev": "^1.1.1",
     "anymatch": "^3.1.3",
@@ -61,7 +74,5 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "KrazyKleb",
-  "license": "ISC"
+  }
 }

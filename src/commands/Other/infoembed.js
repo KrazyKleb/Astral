@@ -7,9 +7,12 @@ module.exports = {
     .setDescription(`Sends the info embed`),
     async execute (interaction, client) {
 
+        const bronzeX = client.emojis.cache.find(emoji => emoji.name === "bronze_x")
+        const bronzeCheck = client.emojis.cache.find(emoji => emoji.name === "bronze_check")
+        
         const permEmbed = new EmbedBuilder()
         .setColor(`Blue`)
-        .setDescription(`You don't have permission to use this command`)
+        .setDescription(`${bronzeX} You don't have permission to use this command`)
         
         if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) return await interaction.reply({ embeds: [permEmbed], ephemeral: true })
         
