@@ -26,14 +26,14 @@ module.exports = {
         switch (command) {
 
             case `staff`:
-            await interaction.reply ({ embeds: [staffEmbed] })
+            await interaction.reply ({ embeds: [staffEmbed], ephemeral: true })
 
         }
 
         switch (command) {
 
             case `media`:
-            await interaction.reply ({ embeds: [staffEmbed] })
+            await interaction.reply ({ embeds: [staffEmbed], ephemeral: true })
 
         }
     }
