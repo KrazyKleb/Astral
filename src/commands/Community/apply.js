@@ -18,7 +18,7 @@ module.exports = {
         const command = interaction.options.getSubcommand();
         const staffEmbed = new EmbedBuilder()
         .setColor(`Blue`)
-        .setDescription(`You can apply for staff here:\nWe don't have a google forms link yet because the server is not up.`)
+        .setDescription(`You can apply for staff here:\nhttps://forms.gle/FLpUNCSRdcu9F9Db7`)
         const mediaEmbed = new EmbedBuilder()
         .setColor(`Blue`)
         .setDescription(`You can apply for Youtube/Twitch rank here:\nexample link`)
