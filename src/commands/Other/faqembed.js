@@ -18,7 +18,7 @@ module.exports = {
         .setDescription(`These are answers to questions that are asked a lot.`)
         .setImage(`https://i.imgur.com/Fm4ZjTJ.png`)
         .addFields(
-            { name: `*How can I apply for staff?*`, value: `We will release a Google form soon, You will be able to apply for staff through the Google form.`},
+            { name: `*How can I apply for staff?*`, value: `Use the ***/apply*** command to apply for staff`},
         )
         
         await interaction.channel.send({ embeds: [embed] })
