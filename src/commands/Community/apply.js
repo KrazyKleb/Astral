@@ -33,7 +33,7 @@ module.exports = {
         switch (command) {
 
             case `media`:
-            await interaction.reply ({ embeds: [staffEmbed], ephemeral: true })
+            await interaction.reply ({ embeds: [mediaEmbed], ephemeral: true })
 
         }
     }
