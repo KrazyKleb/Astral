@@ -21,7 +21,7 @@ module.exports = {
         .setDescription(`You can apply for staff here:\nhttps://forms.gle/FLpUNCSRdcu9F9Db7`)
         const mediaEmbed = new EmbedBuilder()
         .setColor(`Blue`)
-        .setDescription(`You can apply for Youtube/Twitch rank here:\nexample link`)
+        .setDescription(`You can apply for Youtube/Twitch rank here:\nhttps://forms.gle/BH8p33tGThvmYFNR8`)
 
         switch (command) {
 
