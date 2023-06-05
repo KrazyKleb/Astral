@@ -20,9 +20,5 @@ module.exports = {
                 ephemeral: true
             });
         } 
-
     },
-    
-
-
 };

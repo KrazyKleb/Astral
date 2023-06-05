@@ -12,7 +12,7 @@ module.exports = {
         
         const permEmbed = new EmbedBuilder()
         .setColor(`Blue`)
-        .setDescription(`${bronzeX} You don't have permission to use this command`)
+        .setDescription(`${bronzeX}  You don't have permission to use this command`)
         
         if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) return await interaction.reply({ embeds: [permEmbed], ephemeral: true })
         
