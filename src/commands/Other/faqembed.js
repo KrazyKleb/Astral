@@ -17,6 +17,7 @@ module.exports = {
         if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) return await interaction.reply({ embeds: [permEmbed], ephemeral: true })
         
         const embed = new EmbedBuilder()
+        .setColor(`Blue`)
         .setTitle(`***Astral MC FAQ***`)
         .setDescription(`These are answers to questions that are asked a lot.`)
         .setImage(`https://i.imgur.com/Fm4ZjTJ.png`)

@@ -1,6 +1,6 @@
-# astral
+# Astral
 
-![88x31](https://github.com/KrazyKleb/astral/assets/124646709/9cb45462-6a03-4ad8-940f-16d6718d3a59)
+![88x31](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
 This work is liscensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
